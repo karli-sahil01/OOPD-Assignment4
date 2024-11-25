@@ -2,8 +2,8 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra -Iinclude
 LDFLAGS =
 
-SOURCES = src/Author.cpp src/BibTeXParser.cpp src/Publication.cpp src/PublicationBase.cpp src/main.cpp
-HEADERS = include/Author.h include/BibTeXParser.h include/Publication.h include/PublicationBase.h include/PublicationHandler.h
+SOURCES = src/res_Author.cpp src/bibTeX_Parser.cpp src/research_Publication.cpp src/Pub_Base.cpp src/main.cpp
+HEADERS = include/res_Author.h include/bibTeX_Parser.h include/research_Publication.h include/Pub_Base.h include/PublicationHandler.h
 
 OBJECTS = $(SOURCES:.cpp=.o)
 
